@@ -1,12 +1,12 @@
 {
-  "name": "adapt-authoring-broserslist",
+  "name": "adapt-authoring-browserslist",
   "version": "0.0.1",
   "description": "Handles updating of browserslist for the framework building process",
   "homepage": "https://github.com/adaptlearning/adapt-authoring-browserslist",
   "license": "GPL-3.0",
   "type": "module",
   "main": "index.js",
-  "repository": "github:adapt-security/adapt-authoring-broserslist",
+  "repository": "github:adapt-security/adapt-authoring-browserslist",
   "peerDependencies": {
     "adapt-authoring-adaptframework": "github:adapt-security/adapt-authoring-adaptframework"
   }

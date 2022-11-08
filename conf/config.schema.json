@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "runOnBuild": {
+      "description": "Whether the browserslist DB should be updated prior to each framework build",
+      "type": "boolean",
+      "default": true
+    },
+    "updateInterval": {
+      "description": "The amount of time to wait in between browserslist DB rebuilds. Setting to 0 will disable this feature.",
+      "type": "string",
+      "default": "0"
+    }
+  }
+}

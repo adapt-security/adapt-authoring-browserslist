@@ -1,0 +1,9 @@
+{
+  "BROWSERSLIST_UPDATE_FAILED": {
+    "data": {
+      "error": "The error message"
+    },
+    "description": "Failed to update browserslist DB",
+    "statusCode": 500
+  }
+}

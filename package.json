@@ -9,5 +9,9 @@
   "repository": "github:adapt-security/adapt-authoring-browserslist",
   "peerDependencies": {
     "adapt-authoring-adaptframework": "github:adapt-security/adapt-authoring-adaptframework"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "standard": "^17.0.0"
   }
 }

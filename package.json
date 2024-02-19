@@ -8,6 +8,7 @@
   "main": "index.js",
   "repository": "github:adapt-security/adapt-authoring-browserslist",
   "peerDependencies": {
+    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core",
     "adapt-authoring-adaptframework": "github:adapt-security/adapt-authoring-adaptframework"
   },
   "devDependencies": {

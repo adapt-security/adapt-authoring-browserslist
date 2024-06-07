@@ -7,9 +7,6 @@
   "type": "module",
   "main": "index.js",
   "repository": "github:adapt-security/adapt-authoring-browserslist",
-  "peerDependencies": {
-    "adapt-authoring-adaptframework": "github:adapt-security/adapt-authoring-adaptframework"
-  },
   "devDependencies": {
     "eslint": "^8.56.0",
     "standard": "^17.1.0"

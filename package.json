@@ -2,7 +2,7 @@
   "name": "adapt-authoring-browserslist",
   "version": "0.0.1",
   "description": "Handles updating of browserslist for the framework building process",
-  "homepage": "https://github.com/adaptlearning/adapt-authoring-browserslist",
+  "homepage": "https://github.com/adapt-security/adapt-authoring-browserslist",
   "license": "GPL-3.0",
   "type": "module",
   "main": "index.js",

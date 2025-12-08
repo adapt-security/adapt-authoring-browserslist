@@ -1,6 +1,6 @@
 {
   "name": "adapt-authoring-browserslist",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Handles updating of browserslist for the framework building process",
   "homepage": "https://github.com/adapt-security/adapt-authoring-browserslist",
   "license": "GPL-3.0",

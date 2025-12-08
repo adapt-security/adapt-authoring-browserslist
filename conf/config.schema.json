@@ -10,6 +10,7 @@
     "updateInterval": {
       "description": "The amount of time to wait in between browserslist DB rebuilds. Setting to 0 will disable this feature.",
       "type": "string",
+      "isTimeMs": true,
       "default": "0"
     }
   }

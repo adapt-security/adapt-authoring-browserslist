@@ -9,7 +9,7 @@
   "repository": "github:adapt-security/adapt-authoring-browserslist",
   "peerDependencies": {
     "adapt-authoring-adaptframework": "^1.9.3",
-    "adapt-authoring-core": "^1.7.0"
+    "adapt-authoring-core": "^2.0.0"
   },
   "peerDependenciesMeta": {
     "adapt-authoring-adaptframework": {

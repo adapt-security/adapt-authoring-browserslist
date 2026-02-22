@@ -11,14 +11,6 @@
     "adapt-authoring-adaptframework": "^1.9.3",
     "adapt-authoring-core": "^2.0.0"
   },
-  "peerDependenciesMeta": {
-    "adapt-authoring-adaptframework": {
-      "optional": true
-    },
-    "adapt-authoring-core": {
-      "optional": true
-    }
-  },
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",
     "conventional-changelog-eslint": "^6.0.0",

@@ -7,9 +7,11 @@
   "type": "module",
   "main": "index.js",
   "repository": "github:adapt-security/adapt-authoring-browserslist",
-  "peerDependencies": {
-    "adapt-authoring-adaptframework": "^1.9.3",
+  "dependencies": {
     "adapt-authoring-core": "^2.0.0"
+  },
+  "peerDependencies": {
+    "adapt-authoring-adaptframework": "^1.9.3"
   },
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",

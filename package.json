@@ -11,7 +11,7 @@
     "adapt-authoring-core": "^2.0.0"
   },
   "peerDependencies": {
-    "adapt-authoring-adaptframework": "^1.9.3"
+    "adapt-authoring-adaptframework": "^2.0.0"
   },
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",

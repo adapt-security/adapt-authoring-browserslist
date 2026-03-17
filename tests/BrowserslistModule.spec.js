@@ -64,6 +64,7 @@ describe('BrowserslistModule', () => {
         if (key === 'updateInterval') return 0
         return undefined
       })
+      instance.update = mock.fn(async () => {})
 
       await instance.init()
 
@@ -79,10 +80,27 @@ describe('BrowserslistModule', () => {
       }
       mockApp.waitForModule = mock.fn(async () => mockFramework)
       instance.getConfig = mock.fn(() => false)
+      instance.update = mock.fn(async () => {})
 
       await instance.init()
 
       assert.equal(instance.path, '/custom/path')
+    })
+
+    it('should run update on startup', async () => {
+      const { instance, mockApp } = createInstance()
+      const mockFramework = {
+        path: '/test',
+        preBuildHook: { tap: mock.fn() }
+      }
+      mockApp.waitForModule = mock.fn(async () => mockFramework)
+      instance.getConfig = mock.fn(() => false)
+      instance.update = mock.fn(async () => {})
+
+      await instance.init()
+
+      assert.equal(instance.update.mock.calls.length, 1)
+      assert.equal(instance.update.mock.calls[0].arguments[0], true)
     })
 
     it('should tap preBuildHook when runOnBuild is true', async () => {
@@ -98,6 +116,7 @@ describe('BrowserslistModule', () => {
         if (key === 'updateInterval') return 0
         return undefined
       })
+      instance.update = mock.fn(async () => {})
 
       await instance.init()
 
@@ -113,6 +132,7 @@ describe('BrowserslistModule', () => {
       }
       mockApp.waitForModule = mock.fn(async () => mockFramework)
       instance.getConfig = mock.fn(() => false)
+      instance.update = mock.fn(async () => {})
 
       await instance.init()
 
